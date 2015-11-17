@@ -14,7 +14,7 @@ interface SideNavOptions {
 
 interface JQuery {
     sideNav(options?: SideNavOptions): JQuery;
-    SideNav(command: string): JQuery;
+    sideNav(command: string): JQuery;
 }
 
 declare module "materialize" {
